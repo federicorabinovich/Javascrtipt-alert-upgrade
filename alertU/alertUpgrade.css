@@ -1,0 +1,50 @@
+.alertU{
+	cursor:pointer;
+}
+#alertUbody{
+	position: fixed;
+	z-index: 1000000000000;
+	left:0;
+	top:0;
+	width:100%;
+	background-color: #000;	
+	opacity:0.5;
+}
+#alertU{
+	margin: 0 auto;
+	display:block;
+	width:300px;
+	left: 50%;
+	margin-left: -150px;
+	min-height: 160px;
+	padding: 10px 15px 10px 50px;
+	position: fixed;
+	z-index:1000000000001;
+	top:30%;
+	float:none;	
+    border-radius: 5px;
+	background-color: #fff;
+	color: #333;
+}
+#alertU #closeButton{
+	color: #fff;
+    border-radius: 3px;	
+	font-size:18px;
+	line-height:32px;
+	height:32px;
+	font-weight: bold;
+	text-transform:uppercase;
+	background-color: #57ace3;
+	width:118px;
+	text-align:center;
+	cursor:pointer;
+	overflow:hidden;
+	-webkit-transition: .3s; 
+    transition: .3s;
+	position:absolute;
+	right: 15px;
+	bottom:10px;
+}
+#alertU #closeButton:hover{
+	background-color: #67ccff;
+}
